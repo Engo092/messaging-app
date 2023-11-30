@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #166534;
+    box-shadow: 2px 2px 8px lightgray;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: auto 0;
+    padding: 1.3rem;
+    color: #fafafa;
+    text-shadow: 2px 2px #141414;
+}
+
+header .logoutBtn {
+    appearance: none;
+    border: none;
+    background-color: #ffffff00;
+    position: absolute;
+    top: 1.45rem;
+    right: 1rem;
+    font-size: xx-large;
+    color: #fafafa;
+}
+
+header .logoutBtn:hover {
+    cursor: pointer;
+}
+
+.mainContent {
+    border-radius: 6px;
+    margin: 2.5rem auto;
+    width: 85%;
+    min-width: 550px;
+    height: 60vh;
+    min-height: 520px;
+    background-color: #d1d0d0;
+    border: 1px solid #979797;
+    box-shadow: 2px 2px 6px #b1b1b1;
+}
+
+@media (max-width: 600px) {
+    header .logoutBtn {
+        right: 5px;
+        top: 2rem;
+        font-size: larger;
+    }
+}
